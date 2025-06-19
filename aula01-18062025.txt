@@ -1,1 +1,186 @@
 utilizando o Github pela primeira vez...
+
+ANOTAÇÕES AULA DIA 18_06_2025
+ordem de atualização aplicativos linux
+
+1-sudo apt update
+se executa antes de atualizar qualquer software
+2-sudo apt upgrade
+faz atualização 
+3-sudo apt full-upgrade
+Complementa o upgrade, verifa outras coisas do sistema operacional em termos de atualização
+4-sudo apt dist-upgrade
+atualiza kernel e drivers
+(as vezes se pode usar tab no preenchimento do camando)
+5-sudo apt autoremove
+Analisa no sistema operacional aplicativos que estão ociosos e ocupando espaço, remover aplicativos desnecessarios
+6-sudo apt autoclean
+Remoção de cash, limpando documentos desnecessarios apos instalação
+7-sudo apt clean
+limpar, contrário do sudo apt update, deleta as listas de atualizações e força uma nova atualização
+8-sudo apt update
+9-sudo apt install
+instalar vários aplicativos em um unico comando
+DEFINIÇÕES COMANDOS sudo apts
+Aqui vai a definição **resumida e clara** de cada comando `apt`:
+
+---
+
+### 🔄 **`apt update`**
+
+Atualiza a **lista de pacotes disponíveis** nos repositórios (não instala nada).
+
+> Ex: verifica se há versões novas de programas.
+
+---
+
+### ⬆️ **`apt upgrade`**
+
+Instala as **atualizações disponíveis** para os pacotes já instalados, **sem remover** nada.
+
+> Ex: atualiza programas mantendo os atuais.
+
+---
+
+### 🚀 **`apt full-upgrade`**
+
+Atualiza tudo como o `upgrade`, mas **pode remover ou substituir pacotes** para completar a atualização.
+
+> Útil em mudanças maiores de sistema.
+
+---
+
+### 🔁 **`apt dist-upgrade`**
+
+Mesmo que `full-upgrade` (é o nome antigo).
+
+> Ainda funciona, mas `full-upgrade` é o preferido.
+
+---
+
+### 🧹 **`apt autoremove`**
+
+Remove **pacotes que não são mais necessários**, geralmente dependências antigas.
+
+> Libera espaço automaticamente.
+
+---
+
+### 🧼 **`apt autoclean`**
+
+Remove arquivos de instalação (.deb) **antigos** que não podem mais ser baixados.
+
+> Limpa pacotes obsoletos do cache.
+
+---
+
+### 🧽 **`apt clean`**
+
+Apaga **todos os arquivos do cache de pacotes**, mesmo os atuais.
+
+> Libera mais espaço, mas pode deixar reinstalações mais lentas.
+
+---
+
+Esses comandos ajudam a manter o **Linux Mint limpo, atualizado e organizado**.
+O comando sudo apt install serve para instalar programas ou pacotes no Linux com permissões de administrador.
+Exemplo:
+
+sudo apt install firefox → Instala o navegador Firefox.~
+função dos softwares linuxmint: vim, git, python3, pip, cloc? (resumido)
+Aqui está a **função de cada software** no Linux Mint, de forma resumida:
+
+* **`vim`**: Editor de texto poderoso usado no terminal.
+
+  > Ideal para programadores e edição de arquivos de sistema.
+
+* **`git`**: Sistema de controle de versão.
+
+  > Usado para gerenciar e acompanhar mudanças no código-fonte.
+
+* **`python3`**: Interpretador da linguagem de programação Python versão 3.
+
+  > Permite rodar e criar scripts Python.
+
+* **`pip`**: Gerenciador de pacotes do Python.
+
+  > Usado para instalar bibliotecas Python (ex: `pip install flask`).
+
+* **`cloc`**: Contador de linhas de código.
+
+  > Mostra quantas linhas de código, comentários e arquivos um projeto tem.
+
+Esses programas são úteis para **desenvolvimento, automação e análise de código**.
+
+CONHECENDO MAIS SOBRE O BASH, SHELL E TTY
+### 🖥️ **Shell**
+
+Interface que interpreta comandos no Linux.
+
+> Permite interagir com o sistema via texto.
+
+### 🐚 **Bash**
+
+Um tipo de shell muito usado no Linux.
+
+> Serve para executar comandos e criar scripts.
+
+### 📟 **TTY**
+
+Terminais virtuais do Linux (sem interface gráfica).
+
+> Usados para acessar o sistema diretamente pelo teclado.
+
+---
+
+**Resumo:**
+**Shell** é o interpretador, **Bash** é um tipo de shell, e **TTY** são os terminais usados para digitar comandos.
+
+Aqui está a **importância de conhecer Bash, Shell e TTY**, de forma resumida e clara:
+
+---
+
+### 🖥️ **Shell**
+
+É a **interface que interpreta comandos** do usuário no sistema.
+
+> Permite conversar com o sistema Linux por meio de texto.
+
+---
+
+### 🐚 **Bash** (Bourne Again SHell)
+
+É um dos **tipos de shell mais usados** no Linux.
+
+> Permite criar scripts, automatizar tarefas e administrar o sistema.
+
+---
+
+### 📟 **TTY** (Teletype)
+
+São os **terminais virtuais** do Linux.
+
+> Permitem acesso direto ao sistema, mesmo sem interface gráfica.
+
+---
+
+### ✅ Por que é importante conhecer:
+
+* Permite **usar o Linux com mais controle e flexibilidade**.
+* Ajuda na **automação de tarefas repetitivas**.
+* Essencial para **trabalhar com servidores**, programação e manutenção do sistema.
+* Útil em casos em que a interface gráfica não está disponível.
+
+---
+
+🔧 **Resumo:** Dominar Shell, Bash e TTY te torna mais eficiente e independente no uso do Linux.
+
+ANOTAÇÕES:
+*Linux é multiusuário, varios usuarios ao mesmo tempo usando sistema, se pode logar com varios usuários ao mesmo tempo.
+Termina: bash (ctrl+alt+t)
+TTY...: também é bash (ctrl+alt+ tecla de função f1) f2,f3.... alterna entre os usuários no tty
+ctrl+f7 volta para o ambiente gráfico, combinado com ctrl+alt tecla função f1 alterna entre ambiente grafico e tty.
+
+
+
+
